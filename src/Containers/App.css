@@ -1,0 +1,26 @@
+.main-title{
+	color: #375054;
+	font-size: 45px;
+	font-size: 4vw;
+	margin-top: 110px;
+	margin-bottom: 0px;
+}
+
+.title-decs{
+	padding-bottom: 50px;
+	font-size: 100%;
+	color: #7E8B92;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+	.main-title{
+		font-size: 10vw;
+		margin-top: 80px;
+	}
+
+	.title-decs{
+		padding-bottom: 50px;
+		font-size: 80%;
+	}
+}

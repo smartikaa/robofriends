@@ -1,0 +1,21 @@
+.card-box{
+  padding: 1em 0em;
+  width: 17em;
+  background-color: #BFD2D4;
+}
+
+.card-img{
+  height: auto;
+  max-width:80%;
+}
+
+.card-name{
+  margin: 30px 10px 0px 10px;
+  font-size: 20px;
+  color: #334749;
+}
+
+.card-email{
+  font-size: 15px;
+  color: #6B6B6B;
+}

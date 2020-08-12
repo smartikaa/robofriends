@@ -4,7 +4,8 @@ function Searchbox({searchchange}){
 	return(
 		<div className='pa4'>
 			<input 
-			className='pa3 ba b--green bg-lightest-blue' 
+			style={{padding:'10px 7px 10px 10px'}}
+			className='searchbox br2 ba' 
 			type='search' 
 			placeholder='search robots' 
 			onChange={searchchange}
