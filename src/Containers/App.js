@@ -33,9 +33,13 @@ class App extends Component{
 				<h1 className='main-title tc'>ROBOFRIENDS</h1>
 				<p className='title-decs'>All your robot friends in one place.</p>
 				<Searchbox searchchange = {this.OnSearchChange} />
-				<Scroll>
-					<CardList robots={filterdRobots} />
-				</Scroll>
+					<Scroll>
+					{
+						filterdRobots.length === 0 ? 
+						<p style={{color: '#444444'}}>Robot not found :(</p>:
+						<CardList robots={filterdRobots} />
+					}
+					</Scroll>
 			</div>			
 		);
 	}
